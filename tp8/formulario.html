@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <div class="container-image">
+           <link rel="stylesheet" href="style2.css">
+           <img src="imagenestp8/Amazing_Digital_Circus_logo.png" width="350px">
+        </div>
+        <div>
+            <h3 class="container-title">registro a the amazing digital circus</h3>
+        </div>
+    </header>
+
+<body>
+    
+    <main>
+
+<form action="/registro" method="post">
+    <div class="order">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required> 
+    </div>
+    <div class="order">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required> 
+    </div>
+<div class="order">
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required> 
+</div>
+<div class="order">
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad" name="edad" required> 
+</div>
+
+
+    <form action="/encuesta" method="post">
+        <div class="order">
+        <label for="ocupacion">Ocupación:</label> 
+        <select id="ocupacion" name="ocupacion" required> 
+            <option value="">Selecciona una opción</option>
+            <option value="estudiante">payaso</option> 
+            <option value="profesor">conejo</option>
+            <option value="trabajador">muñeca</option> 
+            <option value="rey_de_ajedrez">rey de rey de ajedrez</option>
+            <option values="zooble">zooble</option>
+        </select>
+        </div class="order">
+        <div>
+            <input type="submit" value="Registrarse">
+        </div>
+</form>
+</main>
+<footer>no hay salida, bienvenido a tu nuevo hogar amigo.....</footer>
+</body>
+</html>

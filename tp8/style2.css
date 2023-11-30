@@ -1,0 +1,45 @@
+body {
+background-image: url(imagenestp8/the_tents.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+   
+    margin: 15px;
+    padding: 0;
+}
+header{
+    color: rgb(0, 255, 98);
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+}
+h3{
+   
+    font-weight: 900;
+    font-size: 2em;
+    text-align: center;
+}
+main{
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+input,
+select{
+    margin: 5px;
+    color: rgb(104, 52, 96);
+    border: 4px solid;
+}
+label{
+    color: rgb(124, 46, 98);
+}
+div{
+    border-color: blueviolet;
+}
+footer{
+    justify-content: end;
+    color: aliceblue;
+}
+    
